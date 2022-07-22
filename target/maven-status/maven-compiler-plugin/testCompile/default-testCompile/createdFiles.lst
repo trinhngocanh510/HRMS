@@ -1,0 +1,4 @@
+com\hrms\steps\LogInSteps.class
+com\hrms\pageObject\HRMSPage.class
+com\hrms\stepDefinition\LoginTest.class
+com\hrms\testRunner\HRMSLoginTest.class

@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-22T04:28:02.728Z",
+        "line": 3,
+        "name": "Log In To The System",
+        "description": "",
+        "id": "login;log-in-to-the-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3929000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to HRMS page",
+            "match": {
+              "location": "com.hrms.stepDefinition.LoginTest.goToHrmsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter login information",
+            "match": {
+              "location": "com.hrms.stepDefinition.LoginTest.userEnterLoginInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5238000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click log in button",
+            "match": {
+              "location": "com.hrms.stepDefinition.LoginTest.clickLogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "They can see Timesheet page",
+            "match": {
+              "location": "com.hrms.stepDefinition.LoginTest.theyCanSeeTimesheetPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LogIn.feature",
+    "tags": []
+  }
+]
