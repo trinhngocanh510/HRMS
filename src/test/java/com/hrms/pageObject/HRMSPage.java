@@ -27,8 +27,8 @@ public class HRMSPage extends PageObject {
 //    Code
 
     public void enterLoginInf() {
-        userNameField.sendKeys("tnanh4");
-        pwdField.sendKeys("Tnajj510@@");
+        userNameField.sendKeys("");
+        pwdField.sendKeys("");
     }
 
     public void clickLogin() throws InterruptedException {
